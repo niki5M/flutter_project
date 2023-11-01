@@ -83,11 +83,6 @@ class Home extends StatelessWidget {
                       borderRadius: BorderRadius.circular(30),
                       color: Color(0xFF8F8F8F),
                     ),
-                    child: Icon(
-                      Icons('icon/vremya.jpg'),
-                      color: Colors.green,
-                      size: 30.0,
-                    ),
                   ),
                 ],
               ),
