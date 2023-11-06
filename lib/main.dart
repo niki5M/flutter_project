@@ -81,8 +81,9 @@ class Home extends StatelessWidget {
                     height: 221,
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(30),
-                      color: Color(0xFF8F8F8F),
+                      // color: Color(0xFF8F8F8F),
                     ),
+                    child: Image.asset('icon/card1.jpg'),
                   ),
                 ],
               ),
@@ -106,6 +107,20 @@ class Home extends StatelessWidget {
                     child: const Text(
                       'Всё',
                     ),
+                  ),
+                ],
+              ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Container(
+                    width: 340,
+                    // height: 400,
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(30),
+                      // color: Color(0xFF8F8F8F),
+                    ),
+                    child: Image.asset('icon/cartochka.jpg'),
                   ),
                 ],
               ),
